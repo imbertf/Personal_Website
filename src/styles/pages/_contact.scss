@@ -1,0 +1,89 @@
+.mainWrapper__contactPage {
+    background-color: $color7;
+    height: 100vh;
+    .contactContent {
+        width: 80%;
+        max-width: 800px;
+        height: 440px;
+        background-color: #a8aaaa;
+        border-radius: 35px;
+        border: 4px solid #788f97;
+        box-shadow: 0 0 10px 1px $black;
+        padding: 0 4rem;
+        margin: 3rem;
+        color: #dbd3c9;
+        animation: text-focus-in 0.8s 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+            both;
+        @media screen and (max-width: 780px) {
+            padding: 0 1rem;
+            height: fit-content;
+            margin: 3rem 0;
+            width: 90%;
+        }
+
+        .cartoucheInsideBorderDecoration {
+            width: 500px;
+            border-left: 3px solid #515151ff;
+            border-right: 3px solid #515151ff;
+            box-shadow: 0 0 10px 2px;
+            height: 100%;
+            position: absolute;
+            left: 145px;
+            z-index: 0;
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
+        }
+
+        .titleContent {
+            background: #005f8c;
+            border: 1px solid #002b59;
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+
+        .decorationContent {
+            display: flex;
+            justify-content: center;
+            .decoration {
+                border: 3px solid #717679;
+                box-shadow: 0 0 3px 3px;
+                border-radius: 20px;
+                width: 400px;
+                height: 35px;
+                margin-top: 25px;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                @media screen and (max-width: 780px) {
+                    margin: 25px;
+                }
+
+                .left {
+                    width: 100%;
+                    box-shadow: 0 0 15px 7px #515151ff;
+                }
+
+                .right {
+                    width: 100%;
+                    box-shadow: 0 0 20px 7px #515151ff;
+                }
+
+                li {
+                    list-style-type: none;
+                    border: 1px solid;
+                    box-shadow: 0 0 5px 1px #717679ff;
+                    width: 100%;
+                    margin: 3px;
+                }
+
+                &--colorReverse {
+                    width: 100%;
+                    box-shadow: 0 0 15px 5px;
+                }
+            }
+        }
+    }
+}

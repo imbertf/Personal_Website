@@ -1,0 +1,84 @@
+.homeContent {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .textContent {
+        background: $color1;
+        color: $white;
+        width: 90%;
+        max-width: 1200px;
+        height: 200px;
+        border-radius: 20%;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 10px $color1;
+        border: 5px solid #a8aaaaff;
+        @media screen and (max-width: 780px) {
+            justify-content: space-evenly;
+            width: 100%;
+            border-radius: inherit;
+        }
+
+        .h1_desktop {
+            letter-spacing: 30px;
+            font-size: 60px;
+            width: 90%;
+            margin: 2rem auto;
+            @media screen and (max-width: 780px) {
+                display: none;
+            }
+        }
+
+        .h1_mobile {
+            font-size: 5vw;
+            letter-spacing: 5px;
+            @media screen and (min-width: 780px) {
+                display: none;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 1.8rem;
+            -webkit-animation: fadeInOut 7s infinite ease both;
+            animation: fadeInOut 7s infinite ease both;
+            @media screen and (max-width: 780px) {
+                font-size: 10px;
+            }
+        }
+
+        svg {
+            font-size: 25px;
+            color: $color5;
+        }
+    }
+
+    .buttonContent {
+        width: 320px;
+        height: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 60%;
+        padding: 22px;
+        background: $color3;
+        box-shadow: 0 0 10px $color1;
+        border: 5px solid white;
+        @media screen and (max-width: 780px) {
+            width: 80%;
+            background: #717679;
+            box-shadow: 0 0 10px #3c3331;
+            border: 5px solid white;
+            border-radius: inherit;
+            flex-direction: column;
+            height: auto;
+            padding: inherit;
+        }
+    }
+}

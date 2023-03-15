@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "picture": "rc.png",
+            "name": "Rc Multi-services",
+            "url": "https://www.rcmultiservices.fr",
+            "summary": "Rc Multi-services is a money transfert and mobile repair shop at Orléans, FRANCE",
+            "keywords": ["React js", "Create React App", "React router"]
+        },
+        {
+            "picture": "easyTickets.png",
+            "name": "Easy tickets",
+            "url": "https://www.github.com/imberft",
+            "summary": "Easy tickets is a tool to facilitate the creation of IT intervention tickets for managers and supervisors at Amazon ORY8",
+            "keywords": ["React js", "Create React App"]
+        },
+        {
+            "picture": "amano1.jpg",
+            "name": "My website",
+            "url": "https://www.imbertf.fr",
+            "summary": "Personnal website that will make you remember happy times !",
+            "keywords": [
+                "React js",
+                "Create React App",
+                "React router",
+                "Sass",
+                "Node js",
+                "Express",
+                "Nodemailer"
+            ]
+        },
+        {
+            "picture": "kasa.svg",
+            "name": "Kasa",
+            "url": "https://github.com/imbertf/kasa",
+            "summary": "Real estate rental web application, last professional project of the OpenClassrooms training",
+            "keywords": ["React js", "Create React App", "React router"]
+        },
+        {
+            "picture": "piiquante.jpg",
+            "name": "Piiquante",
+            "url": "https://github.com/imbertf/Piiquante_API",
+            "summary": "Secure REST API for a food advisory application, professional backend project with Nodejs, Express and Mongo DB from OpenClassrooms training",
+            "keywords": ["Node js", "Express", "Mongo DB", "Middlewares"]
+        },
+        {
+            "picture": "kanap.png",
+            "name": "Kanap",
+            "url": "https://github.com/imbertf/imbert_florian_kanap_082022",
+            "summary": "E-commerce site, professional project in Vanilla JavaScript from the OpenClassrooms training",
+            "keywords": ["JavaScript"]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+.aboutContent {
+    &__img {
+        border: 10px solid #3c3331;
+        box-shadow: 0 0 10px #3c3331;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        border-radius: 10%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        animation: slide-in-left 1s 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+            both;
+        @media screen and (max-width: 780px) {
+            position: inherit;
+            border-radius: 5px;
+            border: 1px solid #3c3331;
+            margin: 2rem auto;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .aboutContent__txt {
+        background-color: #546a76;
+        border: 10px solid #3c3331;
+        box-shadow: 0 0 20px 10px #a3bfa2;
+        border-radius: 60px;
+        margin: 3rem;
+        color: #dbd3c9;
+        max-width: 1200px;
+        animation: scale-in-ver-top 1s 0.25s
+            cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        @media screen and (max-width: 780px) {
+            border-radius: 0;
+            padding: 0;
+            border: 2px solid #3c3331;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .h1__about {
+            font-size: 20px;
+            margin: 1rem auto;
+            text-align: end;
+            color: $colorB;
+            @media screen and (max-width: 780px) {
+                display: none;
+            }
+        }
+
+        .h1__mobile {
+            text-align: center;
+            margin: 1rem;
+            color: $colorB;
+            font-size: 15px;
+            line-height: 30px;
+            @media screen and (min-width: 780px) {
+                display: none;
+            }
+        }
+
+        p {
+            border: 1px solid $colorB;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            font-size: 15px;
+            line-height: 25px;
+            margin: 4rem 1rem;
+            animation: text-focus-in 1s 4s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+                both;
+            @media screen and (max-width: 780px) {
+                font-size: 10px;
+                padding: 1rem;
+                text-align: justify;
+                margin: 1rem auto;
+                border: none;
+                animation: text-focus-in 1s 1s
+                    cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+            }
+        }
+    }
+}
