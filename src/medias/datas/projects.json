@@ -10,7 +10,7 @@
         {
             "picture": "easyTickets.png",
             "name": "Easy tickets",
-            "url": "https://www.github.com/imberft",
+            "url": "https://github.com/imbertf/EasyTickets",
             "summary": "Easy tickets is a tool to facilitate the creation of IT intervention tickets for managers and supervisors at Amazon ORY8",
             "keywords": ["React js", "Create React App"]
         },
